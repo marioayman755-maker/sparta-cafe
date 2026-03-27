@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu | Sparta Café</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="fade-in-page">
+
+  <header>
+    <img src="images/logo.png" alt="Cafe Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="menu-page">
+    <h1>Our Menu</h1>
+
+    <div class="menu-buttons">
+  <button onclick="scrollToSection('coffee')">Coffee - قهوة</button>
+  <button onclick="scrollToSection('hot-drinks')">Hot Drinks - مشروبات ساخنة</button>
+  <button onclick="scrollToSection('espresso')">Espresso - اسبريسو</button>
+  <button onclick="scrollToSection('ice-coffee')">Ice Coffee - آيس كوفي</button>
+  <button onclick="scrollToSection('frappe')">Frappe - فرابتشينو</button>
+  <button onclick="scrollToSection('smoothie')">Smoothie - سموزي</button>
+  <button onclick="scrollToSection('smoothie-mix')">Smoothie Mix - سموزي ميكس</button>
+  <button onclick="scrollToSection('soft-drinks')">Soft Drinks - مشروبات غازية</button>
+  <button onclick="scrollToSection('fresh-juice')">Fresh Juice - عصائر فريش</button>
+  <button onclick="scrollToSection('cocktail')">Cocktail - كوكتيل</button>
+  <button onclick="scrollToSection('milkshake')">Milkshake - ميلك شيك</button>
+  <button onclick="scrollToSection('main-dish')">Main Dish - الأطباق الرئيسية</button>
+  <button onclick="scrollToSection('pasta')">Pasta - مكرونة</button>
+  <button onclick="scrollToSection('pizza')">Pizza - بيتزا</button>
+  <button onclick="scrollToSection('pans')">Pans - طاسات</button>
+  <button onclick="scrollToSection('crepe')">Crepe - كريب</button>
+  <button onclick="scrollToSection('crepe-mix')">Crepe mix - كريب ميكس</button>
+  <button onclick="scrollToSection('sandwiches')">Sandwiches - ساندوتشات</button>
+  <button onclick="scrollToSection('salad')">Salad - سلطات</button>
+  <button onclick="scrollToSection('appetizers')">Appetizers - المقبلات</button>
+  <button onclick="scrollToSection('snacks')">Snacks - سناكس</button>
+  <button onclick="scrollToSection('extras')">Extras - إضافات</button>
+  <button onclick="scrollToSection('ice-cream')">Ice Cream - آيس كريم</button>
+  <button onclick="scrollToSection('desserts')">Desserts - حلويات</button>
+</div>
+
+<section class="menu-section" id="coffee">
+  <h2>Coffee - قهوة</h2>
+  <img src="images/coffee.jpg" alt="Coffee" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Turkish Coffee - قهوة تركي</span><span class="price">35 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Double Turkish Coffee - قهوة تركي دوبل</span><span class="price">45 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">French Coffee - قهوة فرنساوي</span><span class="price">40 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Double French Coffee - قهوة فرنساوي دوبل</span><span class="price">50 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Hazelnut Coffee - قهوة بندق</span><span class="price">40 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Double Hazelnut Coffee - قهوة بندق دوبل</span><span class="price">50 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Flavored Coffee - قهوة أطـعـمـة</span><span class="price">45 EGP</span></div><div class="item-description">Nutella - Caramel - Vanilla | نوتيلا - كراميل - فانيليا</div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Black Nescafé - نسكافيه بلاك</span><span class="price">38 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Nescafé with Milk - نسكافيه باللبن</span><span class="price">45 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Dark Hot Chocolate - هوت شوكليت دارك</span><span class="price">50 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">White Hot Chocolate - هوت شوكليت وايت</span><span class="price">50 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Nutella Hot Chocolate - هوت شوكليت نوتيلا</span><span class="price">70 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Marshmallow Hot Chocolate - هوت شوكليت مارشميلو</span><span class="price">90 EGP</span></div></div>
+</section>
+
+<section class="menu-section" id="hot-drinks">
+  <h2>Hot Drinks - مشروبات ساخنة</h2>
+  <img src="images/hot-drinks.jpg" alt="hot-drinks" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Tea - شاي</span><span class="price">25 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Tea Pot (1 Cup) - براد شاي (1 كوب)</span><span class="price">30 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Tea Pot (2 cups) - براد شاي (2 كوب)</span><span class="price">50 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Ahmed Tea -  شاي احمد</span><span class="price">30 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Green Tea - شاي أخضر</span><span class="price">30 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Flavored Ahmed Tea - شاي احمد أطـعـمـة</span><span class="price">35 EGP</span></div><div class="item-description">peach - mango - mixed berries | خوخ - مانجو - توت</div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Milk Tea - شاي باللبن</span><span class="price">40 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Mint - نعناع</span><span class="price">25 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Anise - ينسون</span><span class="price">25 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Hibiscus - كركديه</span><span class="price">25 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Herbal Mix - أعشاب</span><span class="price">45 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Cinnamon - قرفة</span><span class="price">32 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Cinnamon with Milk - قرفة باللبن</span><span class="price">55 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Apple Cinnamon - قرفة تفاح</span><span class="price">55 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Lemon - ليمون</span><span class="price">30 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Lemon Ginger - ليمون جنزبيل</span><span class="price">35 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Ginger - جنزبيل</span><span class="price">30 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Sahlab - سحلب</span><span class="price">45 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Sahlab with Nuts - سحلب مكسرات</span><span class="price">55 EGP</span></div></div>
+</section>
+
+<section class="menu-section" id="espresso">
+  <h2>Espresso - اسبريسو</h2>
+  <img src="images/espresso.jpg" alt="espresso" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Espresso - اسبريسو</span><span class="price">40 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Double Espresso - اسبريسو دوبل</span><span class="price">50 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Macchiato - ميكاتو</span><span class="price">45 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Affogato Coffee - أفوكاتو كوفي</span><span class="price">50 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Cappuccino - كابتشينو</span><span class="price">60 EGP</span></div><div class="item-description">Mocha - Vanilla - Caramel - Hazelnut - Nutella | موكا - فانيليا - كراميل - بندق - نوتيلا</div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Café Latte - كافيه لاتيه</span><span class="price">60 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Flat White - فلات وايت</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Spanish Latte - سبانيش لاتيه</span><span class="price">75 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">American Coffee - امريكان كوفي</span><span class="price">45 EGP</span></div></div>
+</section>
+
+<section class="menu-section" id="ice-coffee">
+  <h2>Ice Coffee - آيس كوفي</h2>
+  <img src="images/ice-coffee.jpg" alt="ice-coffee" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Vanilla Ice Coffee - آيس كوفي فانيليا</span><span class="price">70 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Caramel Ice Coffee - آيس كوفي كراميل</span><span class="price">70 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Hazelnut Ice Coffee - آيس كوفي بندق</span><span class="price">70 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Iced Mocha - آيس موكا</span><span class="price">75 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Iced Latte - آيس لاتيه</span><span class="price">70 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Iced Chocolate - آيس شوكليت</span><span class="price">70 EGP</span></div></div>
+</section>
+
+<section class="menu-section" id="frappe">
+  <h2>Frappe - فرابتشينو</h2>
+  <img src="images/frappe.jpg" alt="frappe" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Vanilla Frappe - فرابتشينو فانيليا</span><span class="price">70 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Hazelnut Frappe - فرابتشينو بندق</span><span class="price">70 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Caramel Frappe - فرابتشينو كراميل</span><span class="price">70 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Mocha Frappe - فرابتشينو موكا</span><span class="price">75 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Nutella Frappe - فرابتشينو نوتيلا</span><span class="price">75 EGP</span></div></div>
+</section>
+
+<section class="menu-section" id="smoothie">
+  <h2>Smoothie - سموزي</h2>
+  <img src="images/smoothie.jpg" alt="smoothie" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Pineapple Smoothie - سموزي أناناس</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Watermelon Smoothie - سموزي بطيخ</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Mango Smoothie - سموزي مانجو</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Strawberry Smoothie - سموزي فراولة</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Banana Smoothie - سموزي موز</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Kiwi Smoothie - سموزي كيوي</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Berry Smoothie - سموزي توت</span><span class="price">65 EGP</span></div></div>
+</section>
+
+<section class="menu-section" id="smoothie-mix">
+  <h2>Smoothie Mix - سموزي ميكس</h2>
+  <img src="images/smoothie-mix.jpg" alt="smoothie-mix" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Mango & Strawberry - مانجو فراولة</span><span class="price">80 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Mango & Kiwi - مانجو كيوي</span><span class="price">80 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Lemon & Mint - ليمون نعناع</span><span class="price">80 EGP</span></div></div>
+</section>
+
+<section class="menu-section" id="soft-drinks">
+  <h2>Soft Drinks - مشروبات غازية</h2>
+  <img src="images/soft-drinks.jpg" alt="soft-drinks" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Soft Drinks - مشروبات غازية</span><span class="price">35 EGP</span></div><div class="item-description">Cola - Diet - Sprite - Orange - Apple - Pineapple | كولا - كولا دايت - سبرايت - برتقال - تفاح - أناناس</div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Schweppes - شويبس</span><span class="price">40 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Fayrouz - فيروز</span><span class="price">40 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Birell - بريل</span><span class="price">40 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Red Bull - ريد بول</span><span class="price">80 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Small Water - مياه صغيرة</span><span class="price">10 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Large Water - مياه كبيرة</span><span class="price">15 EGP</span></div></div>
+</section>
+
+<section class="menu-section" id="fresh-juice">
+  <h2>Fresh Juice - عصائر فريش</h2>
+  <img src="images/fresh-juice.jpg" alt="fresh-juice" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Mango - مانجو</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Strawberry - فراولة</span><span class="price">60 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Guava - جوافة</span><span class="price">60 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Orange - برتقال</span><span class="price">60 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Kiwi - كيوي</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Watermelon - بطيخ</span><span class="price">60 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Avocado - أفوكادو</span><span class="price">70 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Lemon - ليمون</span><span class="price">40 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Lemon Mint - ليمون نعناع</span><span class="price">45 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Lemon Milk - ليمون باللبن</span><span class="price">50 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Banana Milk - موز باللبن</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Guava Milk - جوافة باللبن</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Mango Berry - مانجو توت</span><span class="price">65 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Blended Yogurt - زبادي خلاط</span><span class="price">40 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Yogurt with Honey - زبادي بالعسل</span><span class="price">45 EGP</span></div></div>
+  <div class="menu-item"><div class="item-row"><span class="item-name">Fruit Yogurt - زبادي فواكه</span><span class="price">55 EGP</span></div><div class="item-description">Berries or Strawberry or Mango or Banana | توت او فراولة او مانجو او موز</div></div>
+</section>
+
+<section class="menu-section" id="cocktail">
+  <h2>Cocktail - كوكتيل</h2>
+  <img src="images/cocktail.jpg" alt="cocktail" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Florida - فلوريدا</span><span class="price">70 EGP</span></div>
+    <div class="item-description">Mango - Strawberry - Guava | مانجو - فراولة - جوافة</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Pina Colada - بيناكولادا</span><span class="price">65 EGP</span></div>
+    <div class="item-description">Pineapple - Coconut | أناناس - جوز هند</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mango Magic - مانجو ماچيك</span><span class="price">75 EGP</span></div>
+    <div class="item-description">Mango - Banana - Honey - Ice Cream | مانجو - موز - عسل - آيس كريم</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Chocolate Mango - شيكولاتة مانجو</span><span class="price">65 EGP</span></div>
+    <div class="item-description">Nutella - Mango | نوتيلا - مانجو</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mango Kiwi - مانجو كيوي</span><span class="price">70 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Banana Kiwi - موز كيوي</span><span class="price">70 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Watermelon Mint - بطيخ نعناع</span><span class="price">65 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Hawaii Cocktail - هاواي كوكتيل</span><span class="price">75 EGP</span></div>
+    <div class="item-description">Banana - Mango - Strawberry - Milk | موز - مانجو - فراولة - لبن</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Blue Passion - بلو باشون</span><span class="price">55 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mojito - موخيتو</span><span class="price">55 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Sunshine - صن شاين</span><span class="price">55 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Cherry Cola - شيري كولا</span><span class="price">60 EGP</span></div>
+    <div class="item-description">Berries - Pomegranate - Mint Syrup | توت - رمان - سيرب نعناع</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Hakuna Matata - هاكوناماتاتا</span><span class="price">70 EGP</span></div>
+    <div class="item-description">Mango - Strawberry - Kiwi - Ice Cream | مانجو - فراولة - كيوي - آيس كريم</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Power Drink - باور درينك</span><span class="price">85 EGP</span></div>
+    <div class="item-description">Kiwi - Banana - Mango - Avocado - Ice Cream - Nuts | كيوي - موز - مانجو - أفوكادو - آيس كريم - مكسرات</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">golden - جولدن</span><span class="price">75 EGP</span></div>
+    <div class="item-description">Cantaloupe - Watermelon - Vanilla Ice Cream | كنتلوب - بطيخ - آيس كريم فانيليا  </div>
+  </div>
+</section>
+
+<section class="menu-section" id="milkshake">
+  <h2>Milkshake - ميلك شيك</h2>
+  <img src="images/milkshake.jpg" alt="milkshake" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Chocolate Milkshake - ميلك شيك شيكولاته</span><span class="price">70 EGP</span></div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Vanilla Milkshake - ميلك شيك فانيليا</span><span class="price">70 EGP</span></div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Caramel Milkshake - ميلك شيك كراميل</span><span class="price">70 EGP</span></div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Nutella Milkshake - ميلك شيك نوتيلا</span><span class="price">80 EGP</span></div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Kit Kat Milkshake - ميلك شيك كيت كات</span><span class="price">80 EGP</span></div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Oreo Milkshake - ميلك شيك اوريو</span><span class="price">75 EGP</span></div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Lotus Milkshake - ميلك شيك لوتس</span><span class="price">70 EGP</span></div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Mango Milkshake - ميلك شيك مانجو</span><span class="price">70 EGP</span></div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Strawberry Milkshake - ميلك شيك فراولة</span><span class="price">70 EGP</span></div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Berry Milkshake - ميلك شيك توت</span><span class="price">70 EGP</span></div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Avocado Milkshake - ميلك شيك افوكادو</span><span class="price">85 EGP</span></div></div>
+</section>
+
+<section class="menu-section" id="main-dish">
+  <h2>Main Dish - الأطباق الرئيسية</h2>
+  <img src="images/main-dish.jpg" alt="main-dish" class="section-image">
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Mix Grill - ميكس جريل</span><span class="price">295 EGP</span></div><div class="item-description">Steak, Kofta, sausage, Shish Served with basmati rice, Fries, and green salad | ستيك, كفتة, سجق, شيش يقدم مع ارز بسمتي و بطاطس و سلطة خضراء</div></div>
+  
+  <div class="menu-item"><div class="item-row"><span class="item-name">Beef Stroganoff - بيف استراجانوف</span><span class="price">275 EGP</span></div><div class="item-description">Served with basmati rice, Fries, and green salad | يقدم مع ارز بسمتي و بطاطس و سلطة خضراء</div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Beef Mushroom - بيف مشروم</span><span class="price">265 EGP</span></div><div class="item-description">Served with basmati rice, Fries, and green salad | يقدم مع ارز بسمتي و بطاطس و سلطة خضراء</div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Cordon Bleu - كوردن بلو</span><span class="price">255 EGP</span></div><div class="item-description">Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو</div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Fajita - فاهيتا</span><span class="price">250 EGP</span></div><div class="item-description">Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو</div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Shish Tawook - شيش طاووق</span><span class="price">250 EGP</span></div><div class="item-description">Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو</div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Mix Chicken - ميكس فراخ</span><span class="price">260 EGP</span></div><div class="item-description">Coron Bleu, Pane, Strips Served with basmati rice, Fries, and coleslaw salad | كوردن بلو, بانيه, استربس يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو</div></div>
+
+  <div class="menu-item"><div class="item-row"><span class="item-name">Pane - بانيه</span><span class="price">235 EGP</span></div><div class="item-description">Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو</div></div>
+</section>
+
+<section class="menu-section" id="pasta">
+  <h2>Pasta - مكرونة</h2>
+  <img src="images/pasta.jpg" alt="pasta" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mexicano Pasta - مكرونة ميكسيكانو</span><span class="price">95 EGP</span></div>
+    <div class="item-description">Red Sauce - Hot Dog - Vegetables | صوص أحمر - هوت دوج - خضار</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Arabiata Pasta - مكرونة أربياتا</span><span class="price">75 EGP</span></div>
+    <div class="item-description">Red Sauce - Mushroom - Vegetables | صوص أحمر - مشروم - خضار</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Alfredo Pasta - مكرونة ألفريدو</span><span class="price">130 EGP</span></div>
+    <div class="item-description">White Sauce - Mushroom - Chicken | صوص أبيض - مشروم - قطع فراخ</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Negresco Pasta - مكرونة نجرسكو</span><span class="price">140 EGP</span></div>
+    <div class="item-description">White Sauce - Chicken - Mozzarella | صوص أبيض - قطع فراخ - موتزاريلا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Bolognese Pasta - مكرونة بولونيز</span><span class="price">125 EGP</span></div>
+    <div class="item-description">Red Sauce - Minced Beef | صوص أحمر - لحم مفروم</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Shrimp Pasta - مكرونة جمبري</span><span class="price">210 EGP</span></div>
+    <div class="item-description">Red Sauce - Shrimp - Vegetables | صوص أحمر - جمبري - خضار</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Chinese Noodles - نودلز صيني</span><span class="price">85 EGP</span></div>
+    <div class="item-description">Soy Sauce - Noodles - Vegetables | صوص صويا - نودلز - خضار</div>
+  </div>
+</section>
+
+<section class="menu-section" id="pizza">
+  <h2>Pizza - بيتزا</h2>
+  <img src="images/pizza.jpg" alt="pizza" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Margherita Pizza - بيتزا مارجريتا</span><span class="price">105 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Mozzarella - Oregano | صوص بيتزا - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Vegetable Pizza - بيتزا خضار</span><span class="price">110 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Mozzarella - Pepper - Olives - Oregano | صوص بيتزا - موتزاريلا - فلفل - زيتون - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mushroom Pizza - بيتزا مشروم</span><span class="price">125 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Mozzarella - Vegetables - Mushroom - Oregano | صوص بيتزا - موتزاريلا - خضار - مشروم - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Bolognese Pizza - بيتزا بولونيز</span><span class="price">145 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Mozzarella - Minced Meat - Oregano | صوص بيتزا - موتزاريلا - لحم مفروم - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Crispy Chicken Pizza - بيتزا كريسبي</span><span class="price">125 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Mozzarella - Crispy Chicken - Oregano | صوص بيتزا - موتزاريلا - فراخ كريسبي - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Cheese Mix Pizza - بيتزا ميكس جبن</span><span class="price">125 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Mozzarella - Cheddar - Roumy - Oregano | صوص بيتزا - موتزاريلا - شيدر - رومي - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Chicken Ranch Pizza - بيتزا فراخ رانش</span><span class="price">165 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Chicken - Mozzarella - Ranch Sauce - Oregano | صوص بيتزا - قطع فراخ - موتزاريلا - صوص رانش - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Chicken BBQ Pizza - بيتزا فراخ باربكيو</span><span class="price">165 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Chicken - Mozzarella - BBQ Sauce - Oregano | صوص بيتزا - قطع فراخ - موتزاريلا - صوص باربكيو - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Chicken Mix Pizza - بيتزا ميكس فراخ</span><span class="price">145 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Crispy Chicken - Chicken Strips - Cordon Bleu - Mozzarella - Oregano | صوص بيتزا - فراخ كريسبي - استربس - كوردن بلو - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Smoked Meat Mix Pizza - بيتزا ميكس لحوم مدخنة</span><span class="price">140 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Salami - Smoked Turkey - Mozzarella - Oregano | صوص بيتزا - سلامي - تركي مدخن - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Hot Dog Pizza - بيتزا هوت دوج</span><span class="price">135 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Hot Dog - Mozzarella - Oregano | صوص بيتزا - هوت دوج - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Sausage Pizza - بيتزا سجق</span><span class="price">145 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Sausage - Mozzarella - Oregano | صوص بيتزا - سجق - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Pastrami Pizza - بيتزا بسطرمة</span><span class="price">145 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Pastrami - Mozzarella - Oregano | صوص بيتزا - بسطرمة - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Super Supreme Pizza - بيتزا سوبر سوبريم</span><span class="price">165 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Minced Meat - Salami - Hot Dog - Mozzarella - Oregano | صوص بيتزا - لحم مفروم - سلامي - هوت دوج - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Salami Pizza - بيتزا سلامي</span><span class="price">135 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Salami - Mozzarella - Oregano | صوص بيتزا - سلامي - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Pepperoni Pizza - بيتزا بيبروني</span><span class="price">130 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Pepperoni - Mozzarella - Oregano | صوص بيتزا - بيبروني - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Tuna Pizza - بيتزا تونة</span><span class="price">140 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Tuna - Mozzarella - Oregano | صوص بيتزا - تونة - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Shrimp Pizza - بيتزا جمبري</span><span class="price">210 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Shrimp - Mozzarella - Oregano | صوص بيتزا - جمبري - موتزاريلا - ريحان</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Sea Ranch Pizza - بيتزا سي رانش</span><span class="price">235 EGP</span></div>
+    <div class="item-description">Pizza Sauce - Shrimp - Crab Sticks - Mozzarella - Ranch Sauce - Oregano | صوص بيتزا - جمبري - اصابع كابوريا - موتزاريلا - رانش - ريحان</div>
+  </div>
+</section>
+
+<section class="menu-section" id="pans">
+  <h2>Pans - طاسات</h2>
+  <img src="images/pans.jpg" alt="pans" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Sausage Pan - طاسة سجق</span><span class="price">130 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Cordon Bleu Pan - طاسة كوردن بلو</span><span class="price">130 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Crispy Pan - طاسة كريسبي</span><span class="price">120 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Strips Pan - طاسة استربس</span><span class="price">130 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Shrimp Pan - طاسة جمبري</span><span class="price">200 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Smoked Meat Pan - طاسة لحم مدخن</span><span class="price">125 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Hot Dog Pan - طاسة هوت دوج</span><span class="price">125 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mix Chicken Pan - طاسة ميكس فراخ</span><span class="price">140 EGP</span></div>
+  </div>
+</section>
+
+<section class="menu-section" id="crepe">
+  <h2>Crepe - كريب</h2>
+  <img src="images/crepe.jpg" alt="crepe" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Fries Crepe - كريب بطاطس</span><span class="price">75 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mexicano Crepe - كريب مكسيكانو</span><span class="price">90 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Hot Dog Crepe - كريب هوت دوج</span><span class="price">85 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Cheese Mix Crepe - كريب ميكس جبن</span><span class="price">85 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Fresh Pane Crepe - كريب بانيه فريش</span><span class="price">115 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Kofta Crepe - كريب كفتة حاتي</span><span class="price">110 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Crispy Crepe - كريب كريسبي</span><span class="price">95 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Strips Crepe - كريب استربس</span><span class="price">100 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Cordon Bleu Crepe - كريب كوردن بلو</span><span class="price">115 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Fajita Crepe - كريب فاهيتا</span><span class="price">115 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Shish Tawook Crepe - كريب شيش طاووق</span><span class="price">115 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mix Chicken Crepe - كريب ميكس فراخ</span><span class="price">110 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Beef Burger Crepe - كريب برجر لحم</span><span class="price">130 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Chicken Burger Crepe - كريب برجر فراخ</span><span class="price">105 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mushroom Crepe - كريب مشروم</span><span class="price">90 EGP</span></div>
+  </div>
+</section>
+
+<section class="menu-section" id="crepe-mix">
+  <h2>Crepe mix - كريب ميكس</h2>
+  <img src="images/crepe-mix.jpg" alt="crepe-mix" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Fries Mushroom Mix Crepe - كريب ميكس بطاطس مشروم</span><span class="price">115 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Pane Fries Crepe - كريب بطاطس بانيه</span><span class="price">135 EGP</span></div>
+    <div class="item-description">Vegetables - Ketchup - Mayonnaise - Mozzarella | خضار - كاتشب - مايونيز - موتزاريلا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Strips Fries Crepe - كريب بطاطس استربس</span><span class="price">135 EGP</span></div>
+    <div class="item-description">Vegetables - Ketchup - Mayonnaise - Mozzarella | خضار - كاتشب - مايونيز - موتزاريلا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Cordon Bleu Fries Crepe - كريب بطاطس كوردن بلو</span><span class="price">135 EGP</span></div>
+    <div class="item-description">Vegetables - Ketchup - Mayonnaise - Mozzarella | خضار - كاتشب - مايونيز - موتزاريلا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">El-Wa7sh Crepe - كريب الوحش</span><span class="price">175 EGP</span></div>
+    <div class="item-description">Pane - Crispy - Hotdog - Barbecue Sauce - Vegetables - Mozzarella | بانيه - كريسبي - هوت دوج - صوص باربكيو - خضار - موتزاريلا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Shatshoot Crepe - كريب شطشوط </span><span class="price">185 EGP</span></div>
+    <div class="item-description">Strips - Crispy - Jalapeno Sauce - Vegetables - Mozzarella - Ketchup - Mayonnaise | استربس - كريسبي - هالبينيو صوص - خضار - موتزاريلا - كاتشب - مايونيز</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Basha Masr Crepe - كريب باشا مصر</span><span class="price">175 EGP</span></div>
+    <div class="item-description">Strips - Hotdog - Crispy - Cheddar Sauce - Vegetables - Mozzarella - Ketchup - Mayonnaise | استربس - هوت دوج - كريسبي - صوص شيدر - خضار - موتزاريلا - كاتشب - مايونيز</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">El-King Crepe - كريب الكينج</span><span class="price">175 EGP</span></div>
+    <div class="item-description">Hotdog - Strips - Fries - Cheddar Sauce - Tasty Sauce - Vegetables - Mozzarella | هوت دوج - استربس - بطاطس - صوص شيدر - صوص تيستي - خضار - موتزاريلا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">El-Shbrawya Crepe - كريب الشبراوية</span><span class="price">175 EGP</span></div>
+    <div class="item-description">Shish Taouk - Cordon Bleu - Cheddar Sauce - Vegetables - Ketchup - Mayonnaise - Mozzarella | شيش طاووك - كوردن بلو - صوص شيدر - خضار - كاتشب - مايونيز - موتزاريلا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Harley Crepe - كريب هارلي</span><span class="price">185 EGP</span></div>
+    <div class="item-description">Zinger - Crispy - Cordon Bleu - Smoked Turkey - Cheddar Sauce - Vegetables - Ketchup - Mayonnaise - Mozzarella | زنجر - كريسبي - كوردن بلو - تركي مدخن - صوص شيدر - خضار - كاتشب - مايونيز - موتزاريلا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mix El-Daraweesh Crepe - كريب مكس الدراويش</span><span class="price">245 EGP</span></div>
+    <div class="item-description">Pane - Crispy - Strips - Shish Tawook - Fries - Cheddar Sauce - Tasty Sauce - Vegetables - Mozzarella | بانيه - كريسبي - استربس - شيش - بطاطس - صوص شيدر - صوص تيستي - خضار - موتزاريلا</div>
+  </div>
+</section>
+
+<section class="menu-section" id="sandwiches">
+  <h2>Sandwiches - ساندوتشات</h2>
+  <img src="images/sandwiches.jpg" alt="sandwiches" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Hot Dog Sandwich - ساندوتش هوت دوج</span><span class="price">50 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Kofta Sandwich - ساندوتش كفتة</span><span class="price">65 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Crispy Sandwich - ساندوتش كريسبي</span><span class="price">45 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Strips Sandwich - ساندوتش استربس</span><span class="price">65 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Cordon Bleu Sandwich - ساندوتش كوردن بلو</span><span class="price">65 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Fajita Sandwich - ساندوتش فاهيتا</span><span class="price">70 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Shish Tawook Sandwich - ساندوتش شيش طاووق</span><span class="price">70 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Pane Sandwich - ساندوتش بانيه</span><span class="price">65 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mexicano Sandwich - ساندوتش ميكسيكانو</span><span class="price">55 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Beef Burger Sandwich - ساندوتش برجر لحم</span><span class="price">85 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Chicken Burger Sandwich - ساندوتش برجر فراخ</span><span class="price">75 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Beef Burger Combo - ساندوتش برجر لحم كومبو</span><span class="price">135 EGP</span></div>
+    <div class="item-description">ٍServed With Fries & Cola | يقدم مع بطاطس و كولا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Chicken Burger Combo - ساندوتش برجر فراخ كومبو</span><span class="price">120 EGP</span></div>
+    <div class="item-description">ٍServed With Fries & Cola | يقدم مع بطاطس و كولا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">French Fries Sandwich - ساندوتش بطاطس</span><span class="price">30 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mushroom Sandwich - ساندوتش مشروم</span><span class="price">45 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Shrimp Sandwich - ساندوتش جمبري</span><span class="price">130 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Roumi Cheese Sandwich - ساندوتش جبن رومي</span><span class="price">40 EGP</span></div>
+  </div>
+</section>
+
+<section class="menu-section" id="salad">
+  <h2>Salad - سلطات</h2>
+  <img src="images/salad.jpg" alt="salad" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Green Salad - سلطة خضراء</span><span class="price">45 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Tuna Salad - سلطة تونة</span><span class="price">75 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Coleslaw - سلطة كول سلو</span><span class="price">65 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Greek Salad - سلطة يوناني</span><span class="price">70 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Caesar Salad - سلطة سيزر</span><span class="price">85 EGP</span></div>
+  </div>
+</section>
+
+<section class="menu-section" id="appetizers">
+  <h2>Appetizers - المقبلات</h2>
+  <img src="images/appetizers.jpg" alt="appetizers" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Small Fries Plate - طبق بطاطس صغير</span><span class="price">25 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Large Fries Plate - طبق بطاطس كبير</span><span class="price">35 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Fries with Meat & Cheese - بطاطس باللحم المفروم و الجبن</span><span class="price">90 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Fries with Chicken & Cheese - بطاطس بقطع الفراخ و الجبن</span><span class="price">80 EGP</span></div>
+  </div>
+</section>
+
+<section class="menu-section" id="snacks">
+  <h2>Snacks - سناكس</h2>
+  <img src="images/snacks.jpg" alt="snacks" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Popcorn - فشار</span><span class="price">15 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Hummus El Sham - حمص الشام</span><span class="price">35 EGP</span></div>
+  </div>
+</section>
+
+<section class="menu-section" id="extras">
+  <h2>Extras - إضافات</h2>
+  <img src="images/extras.jpg" alt="extras" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Cheese - جبن</span><span class="price">25 EGP</span></div>
+    <div class="item-description">Cheddar or Mozzarella | شيدر او موتزاريلا</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Egg - بيض</span><span class="price">15 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Pane - بانيه</span><span class="price">50 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Fresh Cordon Bleu - كوردن بلو فريش</span><span class="price">50 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Strips - استربس</span><span class="price">40 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Bread - خبز</span><span class="price">15 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Vegetables - خضار</span><span class="price">15 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Sauce - صوص</span><span class="price">20 EGP</span></div>
+    <div class="item-description">Ranch or BBQ | رانش او باربكيو</div>
+  </div>
+</section>
+
+<section class="menu-section" id="ice-cream">
+  <h2>Ice Cream - آيس كريم</h2>
+  <img src="images/ice-cream.jpg" alt="ice-cream" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">2 Scoops Ice Cream - آيس كريم ٢ بولة</span><span class="price">35 EGP</span></div>
+    <div class="item-description">Vanilla - Mango - Chocolate - Strawberry | فانيليا - مانجو - شيكولاتة - فراولة</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">3 Scoops Ice Cream - آيس كريم ٣ بولة</span><span class="price">45 EGP</span></div>
+    <div class="item-description">Vanilla - Mango - Chocolate - Strawberry | فانيليا - مانجو - شيكولاتة - فراولة</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Topping Sauce - إضافة صوص</span><span class="price">15 EGP</span></div>
+    <div class="item-description">Nutella - Lotus - Caramel | نوتيلا - لوتس - كراميل</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Nuts - إضافة مكسرات</span><span class="price">25 EGP</span></div>
+  </div>
+</section>
+
+<section class="menu-section" id="desserts">
+  <h2>Desserts - حلويات</h2>
+  <img src="images/desserts.jpg" alt="desserts" class="section-image">
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Molten Cake - مولتن كيك</span><span class="price">95 EGP</span></div>
+    <div class="item-description">Chocolate or Lotus | شيكولاتة أو لوتس</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Cheesecake - تشيز كيك</span><span class="price">65 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Honey Cake - كيكة العسل</span><span class="price">65 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Tiramisu - تيراميسو</span><span class="price">60 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Red velvet cake - ريد ڤيلڤت كيك</span><span class="price">60 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Tagine - طاجن</span><span class="price">45 EGP</span></div>
+    <div class="item-description">Oreo or Lotus | أوريو أو لوتس</div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mini Mix - ميني ميكس</span><span class="price">45 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mini Despacito - ميني ديسباسيتو</span><span class="price">35 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Nutella Waffle - وافل نوتيلا</span><span class="price">70 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">ًWhite Chocolate Waffle - وافل شيكولاتة بيضاء</span><span class="price">75 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Mix Waffle - وافل ميكس</span><span class="price">80 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Chocolate Fatta - فتة شيكولاتة</span><span class="price">80 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Chocolate Mix Fatta - فتة شيكولاتة ميكس</span><span class="price">90 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Nutella Crepe - كريب نوتيلا</span><span class="price">60 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Fruit Salad - سلطة فواكه</span><span class="price">75 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Fruit Salad with Ice Cream - سلطة فواكه آيس كريم</span><span class="price">95 EGP</span></div>
+  </div>
+
+  <div class="menu-item">
+    <div class="item-row"><span class="item-name">Om Ali with Nuts - أم علي مكسرات</span><span class="price">70 EGP</span></div>
+  </div>
+</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sparta Café. All rights reserved.</p>
+  </footer>
+
+</body>
+ 
+<script>
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+</script>
+
+<script>
+  window.onscroll = function () {
+    const btn = document.getElementById("scrollTopBtn");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+</script>
+
+<button onclick="scrollToTop()" id="scrollTopBtn" title="Back to Top">
+  <span>Back to Top</span><br>
+  <span>العودة للأعلى</span>
+</button>
+</button>
